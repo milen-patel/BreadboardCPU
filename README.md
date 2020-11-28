@@ -26,5 +26,6 @@ Now that we have a functioning ALU, the next step is to build a RAM module so we
 ## Part 3B: Ram Memory Address Selector
 ## Part 3C: RAM Value Selector
 ## Part 4: Program Counter
+![](program-counter.gif)
 ## Part 5: Making an EEPROM Programmer
 ## Part 6: Output Display
