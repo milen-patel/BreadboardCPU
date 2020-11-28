@@ -13,7 +13,16 @@ Additionally, there is a switch that is used to toggle between the clock modes. 
 ![](clock.gif)
 
 ## Part 2: The Arithmetic Logic Unit (ALU)
+It goes without saying that this computer is very limited in its functionality. However, it does have the ability to add and subtract numbers, so the ALU is implemented to do just that! We start off building two 8-bit registers (A and B respectively) that serve as the two operands to the ALU. 
+
+We chain together two 74LS283's to create an ALU that can add the values stored in the A and B registers. To implement subtraction, we use XOR gates for each of the B input bits with the subtraction flag. The ALU was the messiest part of the build as there were many connection involved in feeding inputs to the ALU, chaining together ICs, and supporting subtraction. After reading around online, it became clear that many people were having issues getting their ALUs to work, and it almost always boiled down to misplacing a wire. I was fortunate enough to not run into any of those issues, so I would reccomend building the ALU as slowly and carefully as possible since debugging can be quite difficult.
+
+Below is a quick demonstration of the ALU repeatedly operating at a high clock speed.
+
+![](alu.gif)
+
 ## Part 3A: Ram Setup
+Now that we have a functioning ALU, the next step is to build a RAM module so we can load and store relevant IO from the ALU.
 ## Part 3B: Ram Memory Address Selector
 ## Part 3C: RAM Value Selector
 ## Part 4: Program Counter
