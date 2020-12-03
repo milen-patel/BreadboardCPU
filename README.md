@@ -1,4 +1,5 @@
 # 8-Bit Computer
+![](sap-counting-down.gif)
 In my computer organization class, we learned about an incredibly basic computer model: SAP (Simple as Possible). Ben Eater and others have successfully ventured out to build this computer on a breadboard, and I wanted to build it on my own too.
 
 I am using Ben Eater's tutorial series online, with deviations to come as problems arise.
